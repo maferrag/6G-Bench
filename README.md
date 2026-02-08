@@ -1,6 +1,11 @@
 # 6G-Bench
 **An Open Benchmark for Semantic Communication and Network-Level Reasoning in AI-Native 6G Networks**
 
+**Research paper** : https://arxiv.org/pdf/...
+
+👉 If you are looking to evaluate your LLM model using our benchmark, please feel free to contact us at 📩 mohamed.ferrag@uaeu.ac.ae / mohamed.amine.ferrag@gmail.com
+
+
 ## Overview
 **6G-Bench** is an open, standardized benchmark for evaluating **semantic communication** and **network-level reasoning** capabilities of foundation models in **AI-native 6G networks**.
 
@@ -64,7 +69,7 @@ Given a truncated multi-turn trajectory capturing:
 - policy and SLA constraints,
 - agent operational context,
 
-the model must select the action that **minimizes worst-case future regret** over a finite horizon.
+The model must select the action that **minimizes worst-case future regret** over a finite horizon.
 
 All questions are **multiple-choice (A–D)** but require:
 - multi-step quantitative reasoning,
@@ -85,7 +90,7 @@ All questions are **multiple-choice (A–D)** but require:
 Models are evaluated using **task-conditioned prompts** and must return a structured response:
 
 ```json
-{"answer": "A"}
+{"answer": "..."}
 ```
 ---
 
@@ -101,4 +106,4 @@ Models are evaluated using **task-conditioned prompts** and must return a struct
 
 - analysis of **trust-, safety-, and SLA-critical AI decisions**,
 
-open and reproducible 6G standardization research.
+- open and reproducible **6G standardization research**.
