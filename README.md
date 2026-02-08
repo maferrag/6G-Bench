@@ -78,6 +78,29 @@ All questions are **multiple-choice (A–D)** but require:
 - comparison of future consequences.
 
 ---
+## Benchmark Design
+
+The overall benchmark design and pipeline are illustrated below:
+
+![6G-Bench Benchmark Design Pipeline](Figures/6G_Bench_benchmark_design.png)
+
+The pipeline consists of:
+1. **Standardization Collection and Task Extraction**  
+2. **Semantic State and Action Abstraction**  
+3. **Network-Level Semantic Reasoning & Task Conditioning**  
+4. **Dataset Validation (Automated + Human-in-the-Loop)**  
+5. **Evaluation & Metrics**
+
+### Task Coverage
+
+The distribution of questions across capability categories and individual tasks is shown below:
+
+![Questions per Capability Category](Figures/6g_bench_questions_per_category_colored.svg)
+
+![Questions per Task (T1–T30)](Figures/6g_bench_questions_per_task_colored.svg)
+
+
+---
 
 ## Evaluation Protocol
 6G-Bench provides a unified and reproducible evaluation methodology:
@@ -107,3 +130,63 @@ Models are evaluated using **task-conditioned prompts** and must return a struct
 - analysis of **trust-, safety-, and SLA-critical AI decisions**,
 
 - open and reproducible **6G standardization research**.
+
+
+
+## Network Conditions in 6G-Bench
+
+6G-Bench emphasizes **worst-case and degraded regimes** for latency, throughput, packet loss, and edge-compute load.
+
+### Regime Distributions
+
+![Latency Regimes](Figures/6gbench_latency_regimes.svg)
+![Throughput Regimes](Figures/6gbench_throughput_regimes.svg)
+![Edge-Compute Load Regimes](Figures/6gbench_edge_load_regimes.svg)
+
+### Extremal Network Metrics
+
+![Distribution of Per-Question Maximum Network Metrics](Figures/6gbench_metric_boxplots.svg)
+
+These plots highlight that many questions are instantiated under severe latency, edge-load, and reliability stress, aligning the benchmark with deployment-relevant 6G conditions.
+
+---
+
+## Models Evaluated
+
+We evaluate a diverse suite of contemporary foundation models, spanning dense and Mixture-of-Experts architectures, short- and long-context designs, and both open-weight and proprietary systems.
+
+![Models Evaluated on 6G-Bench](Figures/Models_evaluated.jpg)
+
+---
+
+## Results
+
+### Overall pass@k Performance
+
+![Overall pass@k and pass@1 Accuracy](Figures/results.jpg)
+
+### pass@1 Accuracy by Model Scale
+
+To better understand scaling behavior, we report pass@1 (single-shot accuracy) for different parameter regimes:
+
+- **Large Models**
+
+  ![pass@1 – Large Models](Figures/6g_bench_pass1_large_models.svg)
+
+- **Medium Models**
+
+  ![pass@1 – Medium Models](Figures/6g_bench_pass1_medium_models.svg)
+
+- **Small Models**
+
+  ![pass@1 – Small Models](Figures/6g_bench_pass1_small_models.svg)
+
+- **Tiny Models**
+
+  ![pass@1 – Tiny Models](Figures/6g_bench_pass1_tiny_models.svg)
+
+These visualizations show that:
+- Some **mid-scale models** can match or outperform larger models on deterministic pass@1.
+- **Trust-, security-, and distributed-intelligence tasks** remain among the most challenging categories.
+
+---
