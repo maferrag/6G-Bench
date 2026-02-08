@@ -682,6 +682,37 @@ These visualizations show that:
 - Some **mid-scale models** can match or outperform larger models on deterministic pass@1.
 - **Trust-, security-, and distributed-intelligence tasks** remain among the most challenging categories.
 
+## 📦 Dataset Download (6G-Bench – 3k Validated)
+
+The **6G-Bench (3k Validated)** dataset is provided as a ZIP file in this repository.
+
+### Download via Command Line
+
+```bash
+wget https://github.com/maferrag/6G-Bench/raw/main/Data/6GBench_3k_Validated.zip
+mkdir -p 6GBench_3k_Validated
+unzip 6GBench_3k_Validated.zip -d 6GBench_3k_Validated
+```
+
+### Google Colab
+
+To download and extract the dataset in Google Colab, run:
+```bash
+!wget -O 6GBench_3k_Validated.zip https://github.com/maferrag/6G-Bench/raw/main/Data/6GBench_3k_Validated.zip
+!mkdir -p 6GBench_3k_Validated
+!unzip -q 6GBench_3k_Validated.zip -d 6GBench_3k_Validated
+!ls 6GBench_3k_Validated
+```
+
+### Dataset Directory Setup
+
+After extracting the dataset, set the data directory in your code as follows:
+```python
+from pathlib import Path
+
+DATA_DIR = Path("/content/6GBench_3k_Validated/mcq_questions_only")
+```
+
 ## Citation
 If you use **α³-Bench**, please cite:
 
