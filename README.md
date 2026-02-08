@@ -189,4 +189,56 @@ These visualizations show that:
 - Some **mid-scale models** can match or outperform larger models on deterministic pass@1.
 - **Trust-, security-, and distributed-intelligence tasks** remain among the most challenging categories.
 
+## Citation
+If you use **α³-Bench**, please cite:
+
+```bibtex
+@misc{ferrag6Gbench,
+      title={....}, 
+      author={Mohamed Amine Ferrag and Abderrahmane Lakas and Merouane Debbah},
+      year={2026},
+      eprint={...},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/....}, 
+}
+```
+
+---
+
+## Authors
+- **Mohamed Amine Ferrag**  
+- **Abderrahmane Lakas**  
+- **Merouane Debbah**
+
+---
+
+## License
+The dataset is released under the **Creative Commons Attribution 4.0 (CC BY 4.0)** license unless otherwise specified.
+
+---
+
+## Contact
+For questions, issues, or collaboration:
+
+<p align="center">
+  <b>Dr. Mohamed Amine Ferrag</b><br>
+  Associate Professor, Department of Computer and Network Engineering<br>
+  College of Information Technology, United Arab Emirates University (UAEU)<br>
+  Al Ain, United Arab Emirates<br><br>
+
+  <a href="mailto:mohamed.amine.ferrag@gmail.com">mohamed.amine.ferrag@gmail.com</a><br>
+  <a href="mailto:mohamed.ferrag@uaeu.ac.ae">mohamed.ferrag@uaeu.ac.ae</a><br><br>
+</p>
+
+
+  🌐 <a href="https://scholar.google.fr/citations?user=IkPeqxMAAAAJ&hl=fr&oi=ao">Google Scholar</a> |
+  🔗 <a href="https://www.scopus.com/authid/detail.uri?authorId=56115001200">Scopus</a> |
+  🧭 <a href="https://www.webofscience.com/wos/author/rid/M-2909-2016">Web of Science</a> |
+  💼 <a href="https://www.linkedin.com/in/mohamed-amine-ferrag-phd-36390243/">LinkedIn</a>
+</p>
+
+
+
+
 ---
