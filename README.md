@@ -1,7 +1,7 @@
 # 6G-Bench
 **An Open Benchmark for Semantic Communication and Network-Level Reasoning in AI-Native 6G Networks**
 
-**Research paper** : https://arxiv.org/pdf/...
+**Research paper** : https://arxiv.org/pdf/2602.08675
 
 👉 If you are looking to evaluate your LLM model using our benchmark, please feel free to contact us at 📩 mohamed.ferrag@uaeu.ac.ae / mohamed.amine.ferrag@gmail.com
 
@@ -717,14 +717,12 @@ DATA_DIR = Path("/content/6GBench_3k_Validated/mcq_questions_only")
 If you use **α³-Bench**, please cite:
 
 ```bibtex
-@misc{ferrag6Gbench,
-      title={....}, 
+@misc{ferrag20266gbenchopenbenchmarksemantic,
+      title={6G-Bench: An Open Benchmark for Semantic Communication and Network-Level Reasoning with Foundation Models in AI-Native 6G Networks}, 
       author={Mohamed Amine Ferrag and Abderrahmane Lakas and Merouane Debbah},
       year={2026},
-      eprint={...},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/....}, 
+      eprint={2602.08675},
+      url={https://arxiv.org/abs/2602.08675}, 
 }
 ```
 
