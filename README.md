@@ -714,7 +714,7 @@ DATA_DIR = Path("/content/6GBench_3k_Validated/mcq_questions_only")
 ```
 
 ## Citation
-If you use **α³-Bench**, please cite:
+If you use **6G-Bench**, please cite:
 
 ```bibtex
 @misc{ferrag20266gbenchopenbenchmarksemantic,
