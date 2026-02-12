@@ -5,6 +5,7 @@
 
 👉 If you are looking to evaluate your LLM model using our benchmark, please feel free to contact us at 📩 mohamed.ferrag@uaeu.ac.ae / mohamed.amine.ferrag@gmail.com
 
+**IEEEDataport** We release also the 6G-Bench dataset on IEEEDataport: https://dx.doi.org/10.21227/c8pt-hc87
 
 ## Overview
 **6G-Bench** is an open, standardized benchmark for evaluating **semantic communication** and **network-level reasoning** capabilities of foundation models in **AI-native 6G networks**.
