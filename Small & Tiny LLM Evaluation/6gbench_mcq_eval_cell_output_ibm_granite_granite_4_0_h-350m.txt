@@ -1,0 +1,580 @@
+
+================================================================================
+Evaluating model: ibm-granite/granite-4.0-h-350m
+================================================================================
+Found 488 episode/MCQ pairs in data/6GBench/mcq_questions_only
+Total episodes: 488 | Total questions (all episodes): 3722 | Avg questions/episode: 7.63
+[running] episodes=1/488 | questions=9 | overall_acc=0.222
+[running] episodes=2/488 | questions=11 | overall_acc=0.273
+[running] episodes=3/488 | questions=13 | overall_acc=0.231
+[running] episodes=4/488 | questions=23 | overall_acc=0.348
+[running] episodes=5/488 | questions=32 | overall_acc=0.438
+[running] episodes=6/488 | questions=42 | overall_acc=0.405
+[running] episodes=7/488 | questions=52 | overall_acc=0.385
+[running] episodes=8/488 | questions=64 | overall_acc=0.391
+[running] episodes=9/488 | questions=74 | overall_acc=0.405
+[running] episodes=10/488 | questions=76 | overall_acc=0.408
+[running] episodes=11/488 | questions=84 | overall_acc=0.417
+[running] episodes=12/488 | questions=86 | overall_acc=0.430
+[running] episodes=13/488 | questions=87 | overall_acc=0.425
+[running] episodes=14/488 | questions=97 | overall_acc=0.392
+[running] episodes=15/488 | questions=99 | overall_acc=0.394
+[running] episodes=16/488 | questions=106 | overall_acc=0.415
+[running] episodes=17/488 | questions=116 | overall_acc=0.405
+[running] episodes=18/488 | questions=121 | overall_acc=0.413
+[running] episodes=19/488 | questions=125 | overall_acc=0.424
+[running] episodes=20/488 | questions=133 | overall_acc=0.406
+[running] episodes=21/488 | questions=143 | overall_acc=0.385
+[running] episodes=22/488 | questions=146 | overall_acc=0.390
+[running] episodes=23/488 | questions=158 | overall_acc=0.392
+[running] episodes=24/488 | questions=168 | overall_acc=0.381
+[running] episodes=25/488 | questions=174 | overall_acc=0.374
+[running] episodes=26/488 | questions=181 | overall_acc=0.370
+[running] episodes=27/488 | questions=185 | overall_acc=0.373
+[running] episodes=28/488 | questions=195 | overall_acc=0.369
+[running] episodes=29/488 | questions=201 | overall_acc=0.373
+[running] episodes=30/488 | questions=211 | overall_acc=0.384
+[running] episodes=31/488 | questions=220 | overall_acc=0.391
+[running] episodes=32/488 | questions=230 | overall_acc=0.400
+[running] episodes=33/488 | questions=237 | overall_acc=0.401
+[running] episodes=34/488 | questions=249 | overall_acc=0.394
+[running] episodes=35/488 | questions=260 | overall_acc=0.392
+[running] episodes=36/488 | questions=270 | overall_acc=0.393
+[running] episodes=37/488 | questions=274 | overall_acc=0.398
+[running] episodes=38/488 | questions=278 | overall_acc=0.396
+[running] episodes=39/488 | questions=286 | overall_acc=0.388
+[running] episodes=40/488 | questions=297 | overall_acc=0.384
+[running] episodes=41/488 | questions=307 | overall_acc=0.391
+[running] episodes=42/488 | questions=316 | overall_acc=0.389
+[running] episodes=43/488 | questions=318 | overall_acc=0.387
+[running] episodes=44/488 | questions=326 | overall_acc=0.387
+[running] episodes=45/488 | questions=329 | overall_acc=0.386
+[running] episodes=46/488 | questions=341 | overall_acc=0.378
+[running] episodes=47/488 | questions=351 | overall_acc=0.376
+[running] episodes=48/488 | questions=372 | overall_acc=0.387
+[running] episodes=49/488 | questions=387 | overall_acc=0.390
+[running] episodes=50/488 | questions=398 | overall_acc=0.392
+[running] episodes=51/488 | questions=407 | overall_acc=0.396
+[running] episodes=52/488 | questions=417 | overall_acc=0.393
+[running] episodes=53/488 | questions=429 | overall_acc=0.392
+[running] episodes=54/488 | questions=433 | overall_acc=0.393
+[running] episodes=55/488 | questions=440 | overall_acc=0.400
+[running] episodes=56/488 | questions=456 | overall_acc=0.393
+[running] episodes=57/488 | questions=466 | overall_acc=0.397
+[running] episodes=58/488 | questions=476 | overall_acc=0.399
+[running] episodes=59/488 | questions=478 | overall_acc=0.400
+[running] episodes=60/488 | questions=486 | overall_acc=0.397
+[running] episodes=61/488 | questions=493 | overall_acc=0.394
+[running] episodes=62/488 | questions=495 | overall_acc=0.392
+[running] episodes=63/488 | questions=497 | overall_acc=0.392
+[running] episodes=64/488 | questions=509 | overall_acc=0.389
+[running] episodes=65/488 | questions=514 | overall_acc=0.389
+[running] episodes=66/488 | questions=516 | overall_acc=0.390
+[running] episodes=67/488 | questions=518 | overall_acc=0.390
+[running] episodes=68/488 | questions=526 | overall_acc=0.394
+[running] episodes=69/488 | questions=530 | overall_acc=0.394
+[running] episodes=70/488 | questions=540 | overall_acc=0.396
+[running] episodes=71/488 | questions=551 | overall_acc=0.394
+[running] episodes=72/488 | questions=561 | overall_acc=0.398
+[running] episodes=73/488 | questions=582 | overall_acc=0.393
+[running] episodes=74/488 | questions=592 | overall_acc=0.395
+[running] episodes=75/488 | questions=602 | overall_acc=0.397
+[running] episodes=76/488 | questions=606 | overall_acc=0.396
+[running] episodes=77/488 | questions=608 | overall_acc=0.396
+[running] episodes=78/488 | questions=610 | overall_acc=0.395
+[running] episodes=79/488 | questions=613 | overall_acc=0.393
+[running] episodes=80/488 | questions=623 | overall_acc=0.395
+[running] episodes=81/488 | questions=629 | overall_acc=0.396
+[running] episodes=82/488 | questions=631 | overall_acc=0.396
+[running] episodes=83/488 | questions=636 | overall_acc=0.395
+[running] episodes=84/488 | questions=647 | overall_acc=0.391
+[running] episodes=85/488 | questions=649 | overall_acc=0.390
+[running] episodes=86/488 | questions=670 | overall_acc=0.390
+[running] episodes=87/488 | questions=674 | overall_acc=0.387
+[running] episodes=88/488 | questions=686 | overall_acc=0.388
+[running] episodes=89/488 | questions=696 | overall_acc=0.388
+[running] episodes=90/488 | questions=702 | overall_acc=0.387
+[running] episodes=91/488 | questions=707 | overall_acc=0.388
+[running] episodes=92/488 | questions=711 | overall_acc=0.390
+[running] episodes=93/488 | questions=723 | overall_acc=0.387
+[running] episodes=94/488 | questions=733 | overall_acc=0.389
+[running] episodes=95/488 | questions=737 | overall_acc=0.391
+[running] episodes=96/488 | questions=747 | overall_acc=0.388
+[running] episodes=97/488 | questions=749 | overall_acc=0.390
+[running] episodes=98/488 | questions=759 | overall_acc=0.393
+[running] episodes=99/488 | questions=766 | overall_acc=0.390
+[running] episodes=100/488 | questions=770 | overall_acc=0.390
+[running] episodes=101/488 | questions=772 | overall_acc=0.390
+[running] episodes=102/488 | questions=776 | overall_acc=0.389
+[running] episodes=103/488 | questions=786 | overall_acc=0.388
+[running] episodes=104/488 | questions=796 | overall_acc=0.387
+[running] episodes=105/488 | questions=801 | overall_acc=0.386
+[running] episodes=106/488 | questions=805 | overall_acc=0.386
+[running] episodes=107/488 | questions=826 | overall_acc=0.383
+[running] episodes=108/488 | questions=836 | overall_acc=0.385
+[running] episodes=109/488 | questions=840 | overall_acc=0.387
+[running] episodes=110/488 | questions=844 | overall_acc=0.386
+[running] episodes=111/488 | questions=854 | overall_acc=0.388
+[running] episodes=112/488 | questions=864 | overall_acc=0.385
+[running] episodes=113/488 | questions=876 | overall_acc=0.385
+[running] episodes=114/488 | questions=882 | overall_acc=0.382
+[running] episodes=115/488 | questions=887 | overall_acc=0.382
+[running] episodes=116/488 | questions=897 | overall_acc=0.385
+[running] episodes=117/488 | questions=918 | overall_acc=0.381
+[running] episodes=118/488 | questions=928 | overall_acc=0.381
+[running] episodes=119/488 | questions=934 | overall_acc=0.382
+[running] episodes=120/488 | questions=937 | overall_acc=0.382
+[running] episodes=121/488 | questions=939 | overall_acc=0.382
+[running] episodes=122/488 | questions=943 | overall_acc=0.381
+[running] episodes=123/488 | questions=953 | overall_acc=0.382
+[running] episodes=124/488 | questions=963 | overall_acc=0.381
+[running] episodes=125/488 | questions=973 | overall_acc=0.379
+[running] episodes=126/488 | questions=979 | overall_acc=0.380
+[running] episodes=127/488 | questions=989 | overall_acc=0.380
+[running] episodes=128/488 | questions=999 | overall_acc=0.379
+[running] episodes=129/488 | questions=1007 | overall_acc=0.378
+[running] episodes=130/488 | questions=1014 | overall_acc=0.380
+[running] episodes=131/488 | questions=1018 | overall_acc=0.379
+[running] episodes=132/488 | questions=1039 | overall_acc=0.378
+[running] episodes=133/488 | questions=1049 | overall_acc=0.378
+[running] episodes=134/488 | questions=1060 | overall_acc=0.379
+[running] episodes=135/488 | questions=1068 | overall_acc=0.380
+[running] episodes=136/488 | questions=1078 | overall_acc=0.380
+[running] episodes=137/488 | questions=1080 | overall_acc=0.381
+[running] episodes=138/488 | questions=1090 | overall_acc=0.382
+[running] episodes=139/488 | questions=1098 | overall_acc=0.382
+[running] episodes=140/488 | questions=1119 | overall_acc=0.380
+[running] episodes=141/488 | questions=1128 | overall_acc=0.379
+[running] episodes=142/488 | questions=1142 | overall_acc=0.379
+[running] episodes=143/488 | questions=1148 | overall_acc=0.382
+[running] episodes=144/488 | questions=1152 | overall_acc=0.383
+[running] episodes=145/488 | questions=1162 | overall_acc=0.382
+[running] episodes=146/488 | questions=1172 | overall_acc=0.381
+[running] episodes=147/488 | questions=1180 | overall_acc=0.382
+[running] episodes=148/488 | questions=1190 | overall_acc=0.381
+[running] episodes=149/488 | questions=1194 | overall_acc=0.382
+[running] episodes=150/488 | questions=1204 | overall_acc=0.381
+[running] episodes=151/488 | questions=1213 | overall_acc=0.381
+[running] episodes=152/488 | questions=1215 | overall_acc=0.381
+[running] episodes=153/488 | questions=1224 | overall_acc=0.379
+[running] episodes=154/488 | questions=1233 | overall_acc=0.377
+[running] episodes=155/488 | questions=1243 | overall_acc=0.379
+[running] episodes=156/488 | questions=1250 | overall_acc=0.377
+[running] episodes=157/488 | questions=1260 | overall_acc=0.376
+[running] episodes=158/488 | questions=1263 | overall_acc=0.376
+[running] episodes=159/488 | questions=1271 | overall_acc=0.375
+[running] episodes=160/488 | questions=1273 | overall_acc=0.376
+[running] episodes=161/488 | questions=1275 | overall_acc=0.376
+[running] episodes=162/488 | questions=1285 | overall_acc=0.377
+[running] episodes=163/488 | questions=1295 | overall_acc=0.377
+[running] episodes=164/488 | questions=1300 | overall_acc=0.377
+[running] episodes=165/488 | questions=1304 | overall_acc=0.377
+[running] episodes=166/488 | questions=1314 | overall_acc=0.377
+[running] episodes=167/488 | questions=1329 | overall_acc=0.378
+[running] episodes=168/488 | questions=1339 | overall_acc=0.379
+[running] episodes=169/488 | questions=1346 | overall_acc=0.380
+[running] episodes=170/488 | questions=1360 | overall_acc=0.380
+[running] episodes=171/488 | questions=1371 | overall_acc=0.379
+[running] episodes=172/488 | questions=1381 | overall_acc=0.378
+[running] episodes=173/488 | questions=1387 | overall_acc=0.378
+[running] episodes=174/488 | questions=1396 | overall_acc=0.377
+[running] episodes=175/488 | questions=1404 | overall_acc=0.377
+[running] episodes=176/488 | questions=1414 | overall_acc=0.378
+[running] episodes=177/488 | questions=1420 | overall_acc=0.379
+[running] episodes=178/488 | questions=1426 | overall_acc=0.379
+[running] episodes=179/488 | questions=1435 | overall_acc=0.379
+[running] episodes=180/488 | questions=1445 | overall_acc=0.381
+[running] episodes=181/488 | questions=1447 | overall_acc=0.381
+[running] episodes=182/488 | questions=1457 | overall_acc=0.380
+[running] episodes=183/488 | questions=1459 | overall_acc=0.380
+[running] episodes=184/488 | questions=1469 | overall_acc=0.378
+[running] episodes=185/488 | questions=1479 | overall_acc=0.377
+[running] episodes=186/488 | questions=1490 | overall_acc=0.377
+[running] episodes=187/488 | questions=1492 | overall_acc=0.377
+[running] episodes=188/488 | questions=1497 | overall_acc=0.376
+[running] episodes=189/488 | questions=1503 | overall_acc=0.377
+[running] episodes=190/488 | questions=1513 | overall_acc=0.379
+[running] episodes=191/488 | questions=1523 | overall_acc=0.378
+[running] episodes=192/488 | questions=1530 | overall_acc=0.379
+[running] episodes=193/488 | questions=1541 | overall_acc=0.377
+[running] episodes=194/488 | questions=1552 | overall_acc=0.377
+[running] episodes=195/488 | questions=1557 | overall_acc=0.377
+[running] episodes=196/488 | questions=1565 | overall_acc=0.377
+[running] episodes=197/488 | questions=1575 | overall_acc=0.375
+[running] episodes=198/488 | questions=1585 | overall_acc=0.374
+[running] episodes=199/488 | questions=1589 | overall_acc=0.375
+[running] episodes=200/488 | questions=1591 | overall_acc=0.375
+[running] episodes=201/488 | questions=1595 | overall_acc=0.374
+[running] episodes=202/488 | questions=1605 | overall_acc=0.375
+[running] episodes=203/488 | questions=1614 | overall_acc=0.375
+[running] episodes=204/488 | questions=1622 | overall_acc=0.375
+[running] episodes=205/488 | questions=1628 | overall_acc=0.376
+[running] episodes=206/488 | questions=1632 | overall_acc=0.376
+[running] episodes=207/488 | questions=1634 | overall_acc=0.376
+[running] episodes=208/488 | questions=1640 | overall_acc=0.376
+[running] episodes=209/488 | questions=1650 | overall_acc=0.375
+[running] episodes=210/488 | questions=1660 | overall_acc=0.375
+[running] episodes=211/488 | questions=1666 | overall_acc=0.375
+[running] episodes=212/488 | questions=1668 | overall_acc=0.375
+[running] episodes=213/488 | questions=1670 | overall_acc=0.375
+[running] episodes=214/488 | questions=1672 | overall_acc=0.375
+[running] episodes=215/488 | questions=1679 | overall_acc=0.376
+[running] episodes=216/488 | questions=1689 | overall_acc=0.377
+[running] episodes=217/488 | questions=1693 | overall_acc=0.377
+[running] episodes=218/488 | questions=1703 | overall_acc=0.377
+[running] episodes=219/488 | questions=1705 | overall_acc=0.377
+[running] episodes=220/488 | questions=1713 | overall_acc=0.378
+[running] episodes=221/488 | questions=1720 | overall_acc=0.377
+[running] episodes=222/488 | questions=1728 | overall_acc=0.377
+[running] episodes=223/488 | questions=1732 | overall_acc=0.377
+[running] episodes=224/488 | questions=1744 | overall_acc=0.376
+[running] episodes=225/488 | questions=1746 | overall_acc=0.376
+[running] episodes=226/488 | questions=1748 | overall_acc=0.376
+[running] episodes=227/488 | questions=1761 | overall_acc=0.377
+[running] episodes=228/488 | questions=1770 | overall_acc=0.377
+[running] episodes=229/488 | questions=1772 | overall_acc=0.376
+[running] episodes=230/488 | questions=1774 | overall_acc=0.376
+[running] episodes=231/488 | questions=1776 | overall_acc=0.376
+[running] episodes=232/488 | questions=1787 | overall_acc=0.375
+[running] episodes=233/488 | questions=1789 | overall_acc=0.375
+[running] episodes=234/488 | questions=1799 | overall_acc=0.374
+[running] episodes=235/488 | questions=1805 | overall_acc=0.374
+[running] episodes=236/488 | questions=1815 | overall_acc=0.375
+[running] episodes=237/488 | questions=1821 | overall_acc=0.375
+[running] episodes=238/488 | questions=1831 | overall_acc=0.376
+[running] episodes=239/488 | questions=1841 | overall_acc=0.378
+[running] episodes=240/488 | questions=1849 | overall_acc=0.379
+[running] episodes=241/488 | questions=1853 | overall_acc=0.378
+[running] episodes=242/488 | questions=1860 | overall_acc=0.378
+[running] episodes=243/488 | questions=1870 | overall_acc=0.380
+[running] episodes=244/488 | questions=1880 | overall_acc=0.379
+[running] episodes=245/488 | questions=1884 | overall_acc=0.380
+[running] episodes=246/488 | questions=1888 | overall_acc=0.379
+[running] episodes=247/488 | questions=1898 | overall_acc=0.379
+[running] episodes=248/488 | questions=1919 | overall_acc=0.380
+[running] episodes=249/488 | questions=1929 | overall_acc=0.380
+[running] episodes=250/488 | questions=1933 | overall_acc=0.380
+[running] episodes=251/488 | questions=1940 | overall_acc=0.379
+[running] episodes=252/488 | questions=1950 | overall_acc=0.379
+[running] episodes=253/488 | questions=1952 | overall_acc=0.379
+[running] episodes=254/488 | questions=1959 | overall_acc=0.380
+[running] episodes=255/488 | questions=1964 | overall_acc=0.380
+[running] episodes=256/488 | questions=1971 | overall_acc=0.381
+[running] episodes=257/488 | questions=1977 | overall_acc=0.382
+[running] episodes=258/488 | questions=1981 | overall_acc=0.383
+[running] episodes=259/488 | questions=1991 | overall_acc=0.382
+[running] episodes=260/488 | questions=1994 | overall_acc=0.382
+[running] episodes=261/488 | questions=1996 | overall_acc=0.382
+[running] episodes=262/488 | questions=2000 | overall_acc=0.382
+[running] episodes=263/488 | questions=2002 | overall_acc=0.382
+[running] episodes=264/488 | questions=2005 | overall_acc=0.382
+[running] episodes=265/488 | questions=2015 | overall_acc=0.381
+[running] episodes=266/488 | questions=2027 | overall_acc=0.381
+[running] episodes=267/488 | questions=2034 | overall_acc=0.382
+[running] episodes=268/488 | questions=2036 | overall_acc=0.381
+[running] episodes=269/488 | questions=2038 | overall_acc=0.381
+[running] episodes=270/488 | questions=2048 | overall_acc=0.380
+[running] episodes=271/488 | questions=2058 | overall_acc=0.380
+[running] episodes=272/488 | questions=2062 | overall_acc=0.381
+[running] episodes=273/488 | questions=2066 | overall_acc=0.381
+[running] episodes=274/488 | questions=2070 | overall_acc=0.381
+[running] episodes=275/488 | questions=2081 | overall_acc=0.380
+[running] episodes=276/488 | questions=2085 | overall_acc=0.381
+[running] episodes=277/488 | questions=2096 | overall_acc=0.380
+[running] episodes=278/488 | questions=2117 | overall_acc=0.381
+[running] episodes=279/488 | questions=2127 | overall_acc=0.379
+[running] episodes=280/488 | questions=2134 | overall_acc=0.379
+[running] episodes=281/488 | questions=2139 | overall_acc=0.379
+[running] episodes=282/488 | questions=2149 | overall_acc=0.380
+[running] episodes=283/488 | questions=2161 | overall_acc=0.379
+[running] episodes=284/488 | questions=2173 | overall_acc=0.379
+[running] episodes=285/488 | questions=2179 | overall_acc=0.380
+[running] episodes=286/488 | questions=2181 | overall_acc=0.380
+[running] episodes=287/488 | questions=2190 | overall_acc=0.380
+[running] episodes=288/488 | questions=2197 | overall_acc=0.379
+[running] episodes=289/488 | questions=2205 | overall_acc=0.378
+[running] episodes=290/488 | questions=2211 | overall_acc=0.379
+[running] episodes=291/488 | questions=2215 | overall_acc=0.379
+[running] episodes=292/488 | questions=2217 | overall_acc=0.378
+[running] episodes=293/488 | questions=2219 | overall_acc=0.379
+[running] episodes=294/488 | questions=2228 | overall_acc=0.378
+[running] episodes=295/488 | questions=2234 | overall_acc=0.378
+[running] episodes=296/488 | questions=2236 | overall_acc=0.378
+[running] episodes=297/488 | questions=2238 | overall_acc=0.378
+[running] episodes=298/488 | questions=2240 | overall_acc=0.377
+[running] episodes=299/488 | questions=2250 | overall_acc=0.376
+[running] episodes=300/488 | questions=2252 | overall_acc=0.376
+[running] episodes=301/488 | questions=2255 | overall_acc=0.376
+[running] episodes=302/488 | questions=2268 | overall_acc=0.376
+[running] episodes=303/488 | questions=2289 | overall_acc=0.377
+[running] episodes=304/488 | questions=2298 | overall_acc=0.379
+[running] episodes=305/488 | questions=2306 | overall_acc=0.378
+[running] episodes=306/488 | questions=2312 | overall_acc=0.379
+[running] episodes=307/488 | questions=2314 | overall_acc=0.379
+[running] episodes=308/488 | questions=2322 | overall_acc=0.379
+[running] episodes=309/488 | questions=2324 | overall_acc=0.379
+[running] episodes=310/488 | questions=2335 | overall_acc=0.379
+[running] episodes=311/488 | questions=2337 | overall_acc=0.379
+[running] episodes=312/488 | questions=2358 | overall_acc=0.380
+[running] episodes=313/488 | questions=2364 | overall_acc=0.381
+[running] episodes=314/488 | questions=2374 | overall_acc=0.382
+[running] episodes=315/488 | questions=2380 | overall_acc=0.382
+[running] episodes=316/488 | questions=2388 | overall_acc=0.382
+[running] episodes=317/488 | questions=2394 | overall_acc=0.381
+[running] episodes=318/488 | questions=2409 | overall_acc=0.380
+[running] episodes=319/488 | questions=2411 | overall_acc=0.380
+[running] episodes=320/488 | questions=2421 | overall_acc=0.381
+[running] episodes=321/488 | questions=2442 | overall_acc=0.383
+[running] episodes=322/488 | questions=2444 | overall_acc=0.383
+[running] episodes=323/488 | questions=2454 | overall_acc=0.383
+[running] episodes=324/488 | questions=2456 | overall_acc=0.383
+[running] episodes=325/488 | questions=2460 | overall_acc=0.382
+[running] episodes=326/488 | questions=2471 | overall_acc=0.382
+[running] episodes=327/488 | questions=2473 | overall_acc=0.383
+[running] episodes=328/488 | questions=2480 | overall_acc=0.383
+[running] episodes=329/488 | questions=2491 | overall_acc=0.383
+[running] episodes=330/488 | questions=2501 | overall_acc=0.383
+[running] episodes=331/488 | questions=2508 | overall_acc=0.382
+[running] episodes=332/488 | questions=2510 | overall_acc=0.382
+[running] episodes=333/488 | questions=2514 | overall_acc=0.382
+[running] episodes=334/488 | questions=2518 | overall_acc=0.383
+[running] episodes=335/488 | questions=2529 | overall_acc=0.383
+[running] episodes=336/488 | questions=2531 | overall_acc=0.383
+[running] episodes=337/488 | questions=2534 | overall_acc=0.383
+[running] episodes=338/488 | questions=2538 | overall_acc=0.383
+[running] episodes=339/488 | questions=2542 | overall_acc=0.383
+[running] episodes=340/488 | questions=2552 | overall_acc=0.383
+[running] episodes=341/488 | questions=2554 | overall_acc=0.384
+[running] episodes=342/488 | questions=2564 | overall_acc=0.384
+[running] episodes=343/488 | questions=2571 | overall_acc=0.384
+[running] episodes=344/488 | questions=2586 | overall_acc=0.382
+[running] episodes=345/488 | questions=2594 | overall_acc=0.383
+[running] episodes=346/488 | questions=2601 | overall_acc=0.383
+[running] episodes=347/488 | questions=2605 | overall_acc=0.383
+[running] episodes=348/488 | questions=2607 | overall_acc=0.383
+[running] episodes=349/488 | questions=2612 | overall_acc=0.384
+[running] episodes=350/488 | questions=2616 | overall_acc=0.384
+[running] episodes=351/488 | questions=2625 | overall_acc=0.383
+[running] episodes=352/488 | questions=2646 | overall_acc=0.384
+[running] episodes=353/488 | questions=2648 | overall_acc=0.384
+[running] episodes=354/488 | questions=2652 | overall_acc=0.384
+[running] episodes=355/488 | questions=2654 | overall_acc=0.384
+[running] episodes=356/488 | questions=2659 | overall_acc=0.384
+[running] episodes=357/488 | questions=2669 | overall_acc=0.385
+[running] episodes=358/488 | questions=2676 | overall_acc=0.385
+[running] episodes=359/488 | questions=2689 | overall_acc=0.385
+[running] episodes=360/488 | questions=2699 | overall_acc=0.384
+[running] episodes=361/488 | questions=2709 | overall_acc=0.384
+[running] episodes=362/488 | questions=2724 | overall_acc=0.384
+[running] episodes=363/488 | questions=2734 | overall_acc=0.383
+[running] episodes=364/488 | questions=2741 | overall_acc=0.382
+[running] episodes=365/488 | questions=2748 | overall_acc=0.382
+[running] episodes=366/488 | questions=2754 | overall_acc=0.382
+[running] episodes=367/488 | questions=2759 | overall_acc=0.382
+[running] episodes=368/488 | questions=2765 | overall_acc=0.382
+[running] episodes=369/488 | questions=2773 | overall_acc=0.381
+[running] episodes=370/488 | questions=2794 | overall_acc=0.382
+[running] episodes=371/488 | questions=2800 | overall_acc=0.381
+[running] episodes=372/488 | questions=2810 | overall_acc=0.382
+[running] episodes=373/488 | questions=2814 | overall_acc=0.382
+[running] episodes=374/488 | questions=2816 | overall_acc=0.383
+[running] episodes=375/488 | questions=2818 | overall_acc=0.383
+[running] episodes=376/488 | questions=2827 | overall_acc=0.383
+[running] episodes=377/488 | questions=2841 | overall_acc=0.382
+[running] episodes=378/488 | questions=2851 | overall_acc=0.381
+[running] episodes=379/488 | questions=2853 | overall_acc=0.381
+[running] episodes=380/488 | questions=2863 | overall_acc=0.382
+[running] episodes=381/488 | questions=2870 | overall_acc=0.382
+[running] episodes=382/488 | questions=2876 | overall_acc=0.381
+[running] episodes=383/488 | questions=2878 | overall_acc=0.381
+[running] episodes=384/488 | questions=2880 | overall_acc=0.381
+[running] episodes=385/488 | questions=2901 | overall_acc=0.380
+[running] episodes=386/488 | questions=2915 | overall_acc=0.379
+[running] episodes=387/488 | questions=2926 | overall_acc=0.379
+[running] episodes=388/488 | questions=2936 | overall_acc=0.379
+[running] episodes=389/488 | questions=2946 | overall_acc=0.379
+[running] episodes=390/488 | questions=2955 | overall_acc=0.379
+[running] episodes=391/488 | questions=2965 | overall_acc=0.378
+[running] episodes=392/488 | questions=2974 | overall_acc=0.378
+[running] episodes=393/488 | questions=2985 | overall_acc=0.378
+[running] episodes=394/488 | questions=2990 | overall_acc=0.378
+[running] episodes=395/488 | questions=3011 | overall_acc=0.379
+[running] episodes=396/488 | questions=3013 | overall_acc=0.379
+[running] episodes=397/488 | questions=3015 | overall_acc=0.379
+[running] episodes=398/488 | questions=3024 | overall_acc=0.379
+[running] episodes=399/488 | questions=3035 | overall_acc=0.379
+[running] episodes=400/488 | questions=3048 | overall_acc=0.379
+[running] episodes=401/488 | questions=3058 | overall_acc=0.380
+[running] episodes=402/488 | questions=3062 | overall_acc=0.379
+[running] episodes=403/488 | questions=3072 | overall_acc=0.379
+[running] episodes=404/488 | questions=3074 | overall_acc=0.379
+[running] episodes=405/488 | questions=3078 | overall_acc=0.380
+[running] episodes=406/488 | questions=3086 | overall_acc=0.379
+[running] episodes=407/488 | questions=3090 | overall_acc=0.380
+[running] episodes=408/488 | questions=3092 | overall_acc=0.379
+[running] episodes=409/488 | questions=3102 | overall_acc=0.379
+[running] episodes=410/488 | questions=3109 | overall_acc=0.379
+[running] episodes=411/488 | questions=3119 | overall_acc=0.379
+[running] episodes=412/488 | questions=3133 | overall_acc=0.379
+[running] episodes=413/488 | questions=3145 | overall_acc=0.378
+[running] episodes=414/488 | questions=3154 | overall_acc=0.378
+[running] episodes=415/488 | questions=3164 | overall_acc=0.378
+[running] episodes=416/488 | questions=3171 | overall_acc=0.378
+[running] episodes=417/488 | questions=3177 | overall_acc=0.378
+[running] episodes=418/488 | questions=3179 | overall_acc=0.378
+[running] episodes=419/488 | questions=3183 | overall_acc=0.378
+[running] episodes=420/488 | questions=3194 | overall_acc=0.378
+[running] episodes=421/488 | questions=3204 | overall_acc=0.377
+[running] episodes=422/488 | questions=3212 | overall_acc=0.377
+[running] episodes=423/488 | questions=3219 | overall_acc=0.377
+[running] episodes=424/488 | questions=3229 | overall_acc=0.377
+[running] episodes=425/488 | questions=3238 | overall_acc=0.377
+[running] episodes=426/488 | questions=3247 | overall_acc=0.377
+[running] episodes=427/488 | questions=3254 | overall_acc=0.376
+[running] episodes=428/488 | questions=3256 | overall_acc=0.376
+[running] episodes=429/488 | questions=3258 | overall_acc=0.376
+[running] episodes=430/488 | questions=3266 | overall_acc=0.375
+[running] episodes=431/488 | questions=3287 | overall_acc=0.375
+[running] episodes=432/488 | questions=3297 | overall_acc=0.375
+[running] episodes=433/488 | questions=3307 | overall_acc=0.375
+[running] episodes=434/488 | questions=3317 | overall_acc=0.375
+[running] episodes=435/488 | questions=3322 | overall_acc=0.375
+[running] episodes=436/488 | questions=3334 | overall_acc=0.376
+[running] episodes=437/488 | questions=3336 | overall_acc=0.376
+[running] episodes=438/488 | questions=3339 | overall_acc=0.376
+[running] episodes=439/488 | questions=3347 | overall_acc=0.376
+[running] episodes=440/488 | questions=3351 | overall_acc=0.376
+[running] episodes=441/488 | questions=3361 | overall_acc=0.376
+[running] episodes=442/488 | questions=3371 | overall_acc=0.376
+[running] episodes=443/488 | questions=3379 | overall_acc=0.376
+[running] episodes=444/488 | questions=3400 | overall_acc=0.376
+[running] episodes=445/488 | questions=3409 | overall_acc=0.376
+[running] episodes=446/488 | questions=3419 | overall_acc=0.376
+[running] episodes=447/488 | questions=3429 | overall_acc=0.375
+[running] episodes=448/488 | questions=3439 | overall_acc=0.375
+[running] episodes=449/488 | questions=3441 | overall_acc=0.374
+[running] episodes=450/488 | questions=3448 | overall_acc=0.375
+[running] episodes=451/488 | questions=3455 | overall_acc=0.375
+[running] episodes=452/488 | questions=3460 | overall_acc=0.374
+[running] episodes=453/488 | questions=3462 | overall_acc=0.374
+[running] episodes=454/488 | questions=3472 | overall_acc=0.374
+[running] episodes=455/488 | questions=3480 | overall_acc=0.374
+[running] episodes=456/488 | questions=3490 | overall_acc=0.374
+[running] episodes=457/488 | questions=3500 | overall_acc=0.374
+[running] episodes=458/488 | questions=3510 | overall_acc=0.374
+[running] episodes=459/488 | questions=3512 | overall_acc=0.374
+[running] episodes=460/488 | questions=3521 | overall_acc=0.373
+[running] episodes=461/488 | questions=3528 | overall_acc=0.374
+[running] episodes=462/488 | questions=3538 | overall_acc=0.373
+[running] episodes=463/488 | questions=3548 | overall_acc=0.373
+[running] episodes=464/488 | questions=3558 | overall_acc=0.373
+[running] episodes=465/488 | questions=3568 | overall_acc=0.373
+[running] episodes=466/488 | questions=3570 | overall_acc=0.373
+[running] episodes=467/488 | questions=3580 | overall_acc=0.373
+[running] episodes=468/488 | questions=3588 | overall_acc=0.374
+[running] episodes=469/488 | questions=3598 | overall_acc=0.374
+[running] episodes=470/488 | questions=3602 | overall_acc=0.374
+[running] episodes=471/488 | questions=3604 | overall_acc=0.374
+[running] episodes=472/488 | questions=3608 | overall_acc=0.374
+[running] episodes=473/488 | questions=3617 | overall_acc=0.374
+[running] episodes=474/488 | questions=3627 | overall_acc=0.374
+[running] episodes=475/488 | questions=3634 | overall_acc=0.374
+[running] episodes=476/488 | questions=3636 | overall_acc=0.374
+[running] episodes=477/488 | questions=3640 | overall_acc=0.374
+[running] episodes=478/488 | questions=3650 | overall_acc=0.374
+[running] episodes=479/488 | questions=3656 | overall_acc=0.373
+[running] episodes=480/488 | questions=3661 | overall_acc=0.374
+[running] episodes=481/488 | questions=3671 | overall_acc=0.373
+[running] episodes=482/488 | questions=3676 | overall_acc=0.373
+[running] episodes=483/488 | questions=3683 | overall_acc=0.373
+[running] episodes=484/488 | questions=3693 | overall_acc=0.373
+[running] episodes=485/488 | questions=3697 | overall_acc=0.373
+[running] episodes=486/488 | questions=3707 | overall_acc=0.372
+[running] episodes=487/488 | questions=3717 | overall_acc=0.373
+[running] episodes=488/488 | questions=3722 | overall_acc=0.372
+Model: ibm-granite/granite-4.0-h-350m
+Total questions: 3722
+Overall accuracy: 0.372
+
+Per-task accuracy:
+  T1 (Intent Feasibility Assessment): 0.391
+  T10 (SLA Violation Prediction): 0.522
+  T11 (Preemptive Autonomy Downgrade): 0.437
+  T12 (Conservative Continuation Decision): 0.299
+  T13 (Swarm-Level Slice Negotiation): 0.336
+  T14 (Scheduler Reconfiguration Adaptation): 0.318
+  T15 (Decision Consistency under Replanning): 0.512
+  T16 (Network-Exposed Compute Marketplace): 0.335
+  T17 (Network-Knowledge RAG Augmentation): 0.409
+  T18 (AI Agent Identity & Onboarding): 0.401
+  T19 (AI Agent Interoperability & Federation): 0.333
+  T2 (Intent Conflict Resolution): 0.354
+  T20 (Agent-to-Agent Communication Management): 0.286
+  T21 (Device-Network Task Offload Arbitration): 0.424
+  T22 (Federated / Collaborative Learning Orchestration): 0.312
+  T23 (Network-Assisted Digital Twin Control): 0.325
+  T24 (Sensing-Enhanced Decisioning (ISAC)): 0.399
+  T25 (AI-Agent-based Disaster / Public-Safety Coordination): 0.268
+  T26 (Trust-Aware Third-Party Agent Exposure): 0.317
+  T27 (Agent Lifecycle & Management): 0.415
+  T28 (6G Model Training-as-a-Service Decision): 0.281
+  T29 (Immersive/AR Resource Prioritization): 0.349
+  T3 (Intent Drift Detection): 0.518
+  T30 (Network Security Detection & Response Automation): 0.510
+  T4 (Slice Selection Reasoning): 0.220
+  T5 (Slice Switching Decision): 0.415
+  T6 (Slice Fairness vs Safety): 0.240
+  T7 (Compute Placement Decision): 0.513
+  T8 (Graceful Degradation under Edge Overload): 0.346
+  T9 (Trust-Aware Offloading): 0.304
+
+Overall pass@k on selected tasks:
+  pass@3: 0.606
+  pass@5: 0.755
+
+Per-task pass@k (selected tasks only):
+  T12 (Conservative Continuation Decision):  pass@3=0.589  pass@5=0.776
+  T19 (AI Agent Interoperability & Federation):  pass@3=0.620  pass@5=0.853
+  T2 (Intent Conflict Resolution):  pass@3=0.593  pass@5=0.814
+  T20 (Agent-to-Agent Communication Management):  pass@3=0.629  pass@5=0.743
+  T26 (Trust-Aware Third-Party Agent Exposure):  pass@3=0.570  pass@5=0.662
+  T30 (Network Security Detection & Response Automation):  pass@3=0.717  pass@5=0.745
+  T9 (Trust-Aware Offloading):  pass@3=0.504  pass@5=0.704
+
+Parsed predictions for 3722/3722 questions.
+Saved detailed global results to /home/jupyter-mferrag/6gbench_mcq_eval_results_ibm-granite_granite-4.0-h-350m_debug.json
+Saved 115 records for T1 (Intent Feasibility Assessment) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T1_Intent_Feasibility_Assessment.json
+Saved 112 records for T3 (Intent Drift Detection) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T3_Intent_Drift_Detection.json
+Saved 104 records for T6 (Slice Fairness vs Safety) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T6_Slice_Fairness_vs_Safety.json
+Saved 119 records for T11 (Preemptive Autonomy Downgrade) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T11_Preemptive_Autonomy_Downgrade.json
+Saved 129 records for T15 (Decision Consistency under Replanning) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T15_Decision_Consistency_under_Replanning.json
+Saved 155 records for T16 (Network-Exposed Compute Marketplace) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T16_Network-Exposed_Compute_Marketplace.json
+Saved 132 records for T21 (Device-Network Task Offload Arbitration) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T21_Device-Network_Task_Offload_Arbitration.json
+Saved 114 records for T23 (Network-Assisted Digital Twin Control) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T23_Network-Assisted_Digital_Twin_Control.json
+Saved 112 records for T25 (AI-Agent-based Disaster / Public-Safety Coordination) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T25_AI-Agent-based_Disaster___Public-Safety_Coordination.json
+Saved 114 records for T28 (6G Model Training-as-a-Service Decision) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T28_6G_Model_Training-as-a-Service_Decision.json
+Saved 146 records for T29 (Immersive/AR Resource Prioritization) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T29_Immersive_AR_Resource_Prioritization.json
+Saved 117 records for T7 (Compute Placement Decision) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T7_Compute_Placement_Decision.json
+Saved 130 records for T8 (Graceful Degradation under Edge Overload) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T8_Graceful_Degradation_under_Edge_Overload.json
+Saved 115 records for T9 (Trust-Aware Offloading) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T9_Trust-Aware_Offloading.json
+Saved 115 records for T10 (SLA Violation Prediction) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T10_SLA_Violation_Prediction.json
+Saved 154 records for T17 (Network-Knowledge RAG Augmentation) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T17_Network-Knowledge_RAG_Augmentation.json
+Saved 157 records for T18 (AI Agent Identity & Onboarding) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T18_AI_Agent_Identity_&_Onboarding.json
+Saved 144 records for T22 (Federated / Collaborative Learning Orchestration) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T22_Federated___Collaborative_Learning_Orchestration.json
+Saved 142 records for T26 (Trust-Aware Third-Party Agent Exposure) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T26_Trust-Aware_Third-Party_Agent_Exposure.json
+Saved 145 records for T30 (Network Security Detection & Response Automation) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T30_Network_Security_Detection_&_Response_Automation.json
+Saved 129 records for T19 (AI Agent Interoperability & Federation) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T19_AI_Agent_Interoperability_&_Federation.json
+Saved 105 records for T20 (Agent-to-Agent Communication Management) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T20_Agent-to-Agent_Communication_Management.json
+Saved 138 records for T24 (Sensing-Enhanced Decisioning (ISAC)) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T24_Sensing-Enhanced_Decisioning_(ISAC).json
+Saved 113 records for T2 (Intent Conflict Resolution) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T2_Intent_Conflict_Resolution.json
+Saved 107 records for T12 (Conservative Continuation Decision) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T12_Conservative_Continuation_Decision.json
+Saved 128 records for T13 (Swarm-Level Slice Negotiation) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T13_Swarm-Level_Slice_Negotiation.json
+Saved 107 records for T14 (Scheduler Reconfiguration Adaptation) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T14_Scheduler_Reconfiguration_Adaptation.json
+Saved 106 records for T27 (Agent Lifecycle & Management) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T27_Agent_Lifecycle_&_Management.json
+Saved 100 records for T4 (Slice Selection Reasoning) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T4_Slice_Selection_Reasoning.json
+Saved 118 records for T5 (Slice Switching Decision) to data/6GBench/mcq_eval_per_task_debug/ibm-granite_granite-4.0-h-350m_T5_Slice_Switching_Decision.json
+
+--------------------------------------------------------------------------------
+Total runtime (seconds): 14284.04
+Total runtime (h:mm:ss): 3:58:04
+--------------------------------------------------------------------------------
