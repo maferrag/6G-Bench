@@ -1,6 +1,12 @@
 # 6G-Bench
 **An Open Benchmark for Semantic Communication and Network-Level Reasoning in AI-Native 6G Networks**
 
+
+
+https://github.com/user-attachments/assets/4b3d706f-b192-40c2-a427-9b1215ab0397
+
+
+
 🚀 **Our paper is now published in IEEE Open Journal of the Communications Society (Q1, Top 5%, IF: 6.1)**  
 📄 https://ieeexplore.ieee.org/document/11474618  (DOI: 10.1109/OJCOMS.2026.3680457) 
 
