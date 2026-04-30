@@ -5,7 +5,7 @@ Official repository for the paper:
 
 ## 🏗️ Agentic AI-Native 6G Architecture
 
-![Agentic 6G Architecture](Agentic6G/Figures/architecture.png)
+![Agentic 6G Architecture]([Agentic6G/Figures](https://github.com/maferrag/6G-Bench/tree/main/Agentic6G/Figures/architecture.png)
 
 The proposed architecture integrates semantic control, LLM-based reasoning, tool-oriented execution, and semantic memory, with distributed agents operating across the device–edge–core continuum and interacting with 6G infrastructure components.
 
