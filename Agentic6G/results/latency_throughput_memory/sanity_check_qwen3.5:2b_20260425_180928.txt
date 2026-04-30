@@ -1,0 +1,23 @@
+
+Raw model output:
+
+
+Parsed answer: None
+
+Debug info:
+{
+  "model": "qwen3.5:2b",
+  "created_at": "2026-04-25T18:09:36.122976277Z",
+  "done_reason": "length",
+  "latency_ms": 7267.490005,
+  "load_duration_ms": 135.30972,
+  "prompt_eval_count": 1931,
+  "prompt_eval_duration_ms": 148.337179,
+  "eval_count": 1000,
+  "eval_duration_ms": 5142.615471,
+  "throughput_toks_per_s": 194.45358215856385,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 9.7822265625,
+  "input_tokens": 1931,
+  "output_tokens": 1000
+}

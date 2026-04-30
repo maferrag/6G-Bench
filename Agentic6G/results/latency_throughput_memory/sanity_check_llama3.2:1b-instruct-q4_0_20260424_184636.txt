@@ -1,0 +1,23 @@
+
+Raw model output:
+{"answer": "A"}
+
+Parsed answer: A
+
+Debug info:
+{
+  "model": "llama3.2:1b-instruct-q4_0",
+  "created_at": "2026-04-24T18:46:42.008938971Z",
+  "done_reason": "stop",
+  "latency_ms": 4921.081206,
+  "load_duration_ms": 4769.207672,
+  "prompt_eval_count": 1835,
+  "prompt_eval_duration_ms": 37.355093,
+  "eval_count": 7,
+  "eval_duration_ms": 11.846698,
+  "throughput_toks_per_s": 590.8819487084081,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 5.6455078125,
+  "input_tokens": 1835,
+  "output_tokens": 7
+}

@@ -1,0 +1,23 @@
+
+Raw model output:
+{"answer": "C"}
+
+Parsed answer: C
+
+Debug info:
+{
+  "model": "lfm2:24b-q4_K_M",
+  "created_at": "2026-04-20T06:48:38.842390179Z",
+  "done_reason": "stop",
+  "latency_ms": 380.889237,
+  "load_duration_ms": 32.834745,
+  "prompt_eval_count": 2058,
+  "prompt_eval_duration_ms": 249.66326,
+  "eval_count": 8,
+  "eval_duration_ms": 42.380395,
+  "throughput_toks_per_s": 188.7665275418032,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 14.7548828125,
+  "input_tokens": 2058,
+  "output_tokens": 8
+}

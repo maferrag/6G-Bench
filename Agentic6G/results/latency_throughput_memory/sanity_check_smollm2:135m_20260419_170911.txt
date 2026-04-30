@@ -1,0 +1,25 @@
+
+Raw model output:
+{
+  "answer": "A"
+}
+
+Parsed answer: A
+
+Debug info:
+{
+  "model": "smollm2:135m",
+  "created_at": "2026-04-19T17:09:12.253731012Z",
+  "done_reason": "stop",
+  "latency_ms": 147.212593,
+  "load_duration_ms": 24.304625,
+  "prompt_eval_count": 2102,
+  "prompt_eval_duration_ms": 43.381757,
+  "eval_count": 11,
+  "eval_duration_ms": 14.813466,
+  "throughput_toks_per_s": 742.5676070677854,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 1.0693359375,
+  "input_tokens": 2102,
+  "output_tokens": 11
+}

@@ -1,0 +1,23 @@
+
+Raw model output:
+{"answer": "C"}
+
+Parsed answer: C
+
+Debug info:
+{
+  "model": "rnj-1:8b",
+  "created_at": "2026-04-23T17:52:08.064479415Z",
+  "done_reason": "stop",
+  "latency_ms": 7472.198919,
+  "load_duration_ms": 6973.293011,
+  "prompt_eval_count": 2014,
+  "prompt_eval_duration_ms": 237.898568,
+  "eval_count": 8,
+  "eval_duration_ms": 69.265653,
+  "throughput_toks_per_s": 115.49735913122771,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 9.5380859375,
+  "input_tokens": 2014,
+  "output_tokens": 8
+}

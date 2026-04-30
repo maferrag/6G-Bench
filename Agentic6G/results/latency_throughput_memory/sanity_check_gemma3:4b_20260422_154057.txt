@@ -1,0 +1,23 @@
+
+Raw model output:
+{"answer": "D"}
+
+Parsed answer: D
+
+Debug info:
+{
+  "model": "gemma3:4b",
+  "created_at": "2026-04-22T15:40:57.753500796Z",
+  "done_reason": "stop",
+  "latency_ms": 564.140562,
+  "load_duration_ms": 183.793923,
+  "prompt_eval_count": 2033,
+  "prompt_eval_duration_ms": 131.092161,
+  "eval_count": 7,
+  "eval_duration_ms": 38.109628,
+  "throughput_toks_per_s": 183.68061740198567,
+  "used_max_new_tokens": 1000,
+  "peak_vram_gb": 6.8603515625,
+  "input_tokens": 2033,
+  "output_tokens": 7
+}
