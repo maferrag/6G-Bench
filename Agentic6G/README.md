@@ -5,13 +5,13 @@ Official repository for the paper:
 
 ## 🏗️ Agentic AI-Native 6G Architecture
 
-![Agentic 6G Architecture](figures/architecture.png)
+![Agentic 6G Architecture](Agentic6G/figures/architecture.png)
 
 The proposed architecture integrates semantic control, LLM-based reasoning, tool-oriented execution, and semantic memory, with distributed agents operating across the device–edge–core continuum and interacting with 6G infrastructure components.
 
 ## 🔁 Agentic Evaluation Pipeline
 
-![Agentic 6G Evaluation Pipeline](figures/pipeline.png)
+![Agentic 6G Evaluation Pipeline](Agentic6G/figures/pipeline.png)
 
 The pipeline processes structured 6G-Bench episodes through prompt construction, agentic reasoning (Perceive → Plan → Act → Reflect), local LLM inference, and structured output validation, followed by performance evaluation and trade-off analysis.
 
@@ -206,7 +206,7 @@ Perceive → Plan → Act → Reflect
 
 ## 📊 Benchmark Results (6G-Bench)
 
-![Reasoning Performance of LLM Models](figures/results_table.jpg)
+![Reasoning Performance of LLM Models](Agentic6G/figures/results_table.jpg)
 
 Comparison of evaluated LLM models across accuracy, Pass@3, and Pass@5. Results highlight the trade-offs between reasoning capability and efficiency, and the impact of quantization across different architectures.
 
