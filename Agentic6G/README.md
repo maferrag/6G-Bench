@@ -5,13 +5,21 @@ Official repository for the paper:
 
 ## 🏗️ Agentic AI-Native 6G Architecture
 
-![Architecture](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/architecture.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/architecture.png" width="60%">
+</p>
+
+<p align="center"><em>Figure: System-level architecture of Agentic AI-Native 6G with distributed agents across the device–edge–core continuum.</em></p>
 
 The proposed architecture integrates semantic control, LLM-based reasoning, tool-oriented execution, and semantic memory, with distributed agents operating across the device–edge–core continuum and interacting with 6G infrastructure components.
 
 ## 🔁 Agentic Evaluation Pipeline
 
-![Agentic Pipeline](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/pipeline.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/pipeline.png" width="60%">
+</p>
+
+<p align="center"><em>Figure: Evaluation pipeline of LLM agents on 6G-Bench.</em></p>
 
 The pipeline processes structured 6G-Bench episodes through prompt construction, agentic reasoning (Perceive → Plan → Act → Reflect), local LLM inference, and structured output validation, followed by performance evaluation and trade-off analysis.
 
@@ -206,7 +214,11 @@ Perceive → Plan → Act → Reflect
 
 ## 📊 Benchmark Results
 
-![Results](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.jpg" width="60%">
+</p>
+
+<p align="center"><em>Figure: Reasoning performance of evaluated LLM models on 6G-Bench.</em></p>
 
 Comparison of evaluated LLM models across accuracy, Pass@3, and Pass@5. Results highlight the trade-offs between reasoning capability and efficiency, and the impact of quantization across different architectures.
 
@@ -216,20 +228,6 @@ Comparison of evaluated LLM models across accuracy, Pass@3, and Pass@5. Results 
 - Fixed seeds per task
 - Standardized prompt templates
 - Logged runtime metrics
-
----
-
-## 📄 Citation
-
-If you use this work, please cite:
-
-```
-@article{ferrag2026agentic6g,
-  title={6G Needs Agents: Toward Agentic AI-Native Networks for Autonomous Intelligence},
-  author={Ferrag, Mohamed Amine and others},
-  year={2026}
-}
-```
 
 ---
 
@@ -243,13 +241,6 @@ Contributions are welcome!
 
 ---
 
-## 📬 Contact
-
-Mohamed Amine Ferrag  
-📧 mohamed.ferrag@uaeu.ac.ae
-
----
-
 ## ⭐ Acknowledgements
 
 - 6G-Bench benchmark
@@ -258,17 +249,58 @@ Mohamed Amine Ferrag
 
 ---
 
-## 📢 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🚀 Vision
 
 This repository aims to support research toward:
 
 > **Self-reasoning, intent-aware, and autonomous 6G networks powered by distributed AI agents.**
+
+
+## 📄 Citation
+
+If you use this work, please cite:
+
+```
+@article{ferrag2026agentic6g,
+  title={6G Needs Agents: Toward Agentic AI-Native Networks for Autonomous Intelligence},
+  author={Mohamed Amine Ferrag and Abderrahmane Lakas and Merouane Debbah},
+  year={2026}
+}
+```
+
+---
+
+## Authors
+- **Mohamed Amine Ferrag**  
+- **Abderrahmane Lakas**  
+- **Merouane Debbah**
+
+---
+
+## License
+The dataset is released under the **Creative Commons Attribution 4.0 (CC BY 4.0)** license unless otherwise specified.
+
+---
+
+## Contact
+For questions, issues, or collaboration:
+
+<p align="center">
+  <b>Dr. Mohamed Amine Ferrag</b><br>
+  Associate Professor, Department of Computer and Network Engineering<br>
+  College of Information Technology, United Arab Emirates University (UAEU)<br>
+  Al Ain, United Arab Emirates<br><br>
+
+  <a href="mailto:mohamed.amine.ferrag@gmail.com">mohamed.amine.ferrag@gmail.com</a><br>
+  <a href="mailto:mohamed.ferrag@uaeu.ac.ae">mohamed.ferrag@uaeu.ac.ae</a><br><br>
+</p>
+
+
+  🌐 <a href="https://scholar.google.fr/citations?user=IkPeqxMAAAAJ&hl=fr&oi=ao">Google Scholar</a> |
+  🔗 <a href="https://www.scopus.com/authid/detail.uri?authorId=56115001200">Scopus</a> |
+  🧭 <a href="https://www.webofscience.com/wos/author/rid/M-2909-2016">Web of Science</a> |
+  💼 <a href="https://www.linkedin.com/in/mohamed-amine-ferrag-phd-36390243/">LinkedIn</a>
+</p>
 
 ---
 
