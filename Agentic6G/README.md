@@ -1,5 +1,3 @@
-# Agentic AI-Native 6G: LLM-Based Multi-Agent Reasoning for Autonomous Networks
-
 Official repository for the paper:
 **"6G Needs Agents: Toward Agentic AI-Native Networks for Autonomous Intelligence"**
 
@@ -56,16 +54,12 @@ Unlike traditional optimization-centric AI approaches, this work focuses on:
 ├── prompts/                  # Prompt templates for 6G-Bench
 ├── scripts/                  # Experiment scripts and utilities
 │   ├── run_inference.py
-│   ├── evaluate.py
-│   ├── parse_outputs.py
-│   └── metrics.py
+
 ├── models/                   # Model configs (Ollama / llama.cpp)
 ├── results/                  # Raw and processed results
 │   ├── accuracy/
-│   ├── latency/
-│   ├── throughput/
-│   └── memory/
-├── notebooks/                # Analysis notebooks
+│   ├── latency_throughput_memory/
+
 ├── figures/                  # Plots and paper figures
 ├── config/                   # Experiment configurations
 └── README.md
