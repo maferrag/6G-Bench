@@ -5,13 +5,21 @@ Official repository for the paper:
 
 ## 🏗️ Agentic AI-Native 6G Architecture
 
-![Architecture](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/architecture.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/architecture.png" width="60%">
+</p>
+
+<p align="center"><em>Figure: System-level architecture of Agentic AI-Native 6G with distributed agents across the device–edge–core continuum.</em></p>
 
 The proposed architecture integrates semantic control, LLM-based reasoning, tool-oriented execution, and semantic memory, with distributed agents operating across the device–edge–core continuum and interacting with 6G infrastructure components.
 
 ## 🔁 Agentic Evaluation Pipeline
 
-![Agentic Pipeline](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/pipeline.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/pipeline.png" width="60%">
+</p>
+
+<p align="center"><em>Figure: Evaluation pipeline of LLM agents on 6G-Bench.</em></p>
 
 The pipeline processes structured 6G-Bench episodes through prompt construction, agentic reasoning (Perceive → Plan → Act → Reflect), local LLM inference, and structured output validation, followed by performance evaluation and trade-off analysis.
 
@@ -206,7 +214,11 @@ Perceive → Plan → Act → Reflect
 
 ## 📊 Benchmark Results
 
-![Results](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.png" width="60%">
+</p>
+
+<p align="center"><em>Figure: Reasoning performance of evaluated LLM models on 6G-Bench.</em></p>
 
 Comparison of evaluated LLM models across accuracy, Pass@3, and Pass@5. Results highlight the trade-offs between reasoning capability and efficiency, and the impact of quantization across different architectures.
 
