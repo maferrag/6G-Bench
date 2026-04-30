@@ -215,7 +215,7 @@ Perceive → Plan → Act → Reflect
 ## 📊 Benchmark Results
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.png" width="60%">
+  <img src="https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.jpg" width="60%">
 </p>
 
 <p align="center"><em>Figure: Reasoning performance of evaluated LLM models on 6G-Bench.</em></p>
