@@ -206,7 +206,7 @@ Perceive → Plan → Act → Reflect
 
 ## 📊 Benchmark Results
 
-![Results](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.png)
+![Results](https://raw.githubusercontent.com/maferrag/6G-Bench/main/Agentic6G/Figures/results_table.jpg)
 
 Comparison of evaluated LLM models across accuracy, Pass@3, and Pass@5. Results highlight the trade-offs between reasoning capability and efficiency, and the impact of quantization across different architectures.
 
