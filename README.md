@@ -1,7 +1,14 @@
 # 6G-Bench
 **An Open Benchmark for Semantic Communication and Network-Level Reasoning in AI-Native 6G Networks**
 
-**Research paper** : https://arxiv.org/pdf/2602.08675
+
+
+https://github.com/user-attachments/assets/4b3d706f-b192-40c2-a427-9b1215ab0397
+
+
+
+🚀 **Our paper is now published in IEEE Open Journal of the Communications Society (Q1, Top 5%, IF: 6.1)**  
+📄 https://ieeexplore.ieee.org/document/11474618  (DOI: 10.1109/OJCOMS.2026.3680457) 
 
 👉 If you are looking to evaluate your LLM model using our benchmark, please feel free to contact us at 📩 mohamed.ferrag@uaeu.ac.ae / mohamed.amine.ferrag@gmail.com
 
